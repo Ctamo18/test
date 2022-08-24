@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-08-24T11:47:51.563Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" version="20.2.6" etag="-_QCdXSyRyKHcfPzAKh-" type="github"><diagram id="K2SnnMOrh3qZOL6qtLfg">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-08-24T22:44:29.344Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="g-5fv9Fc1wNCH9CaKmr_" version="20.2.6" type="github">
+  <diagram id="K2SnnMOrh3qZOL6qtLfg" name="Page-1">
+    <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object label="Start" id="LYZOA4ETsrpDai8BMWDt-2">
+          <mxCell style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+            <mxGeometry x="364" y="40" width="86" height="40" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-3" value="Sum = 0" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="356" y="120" width="116" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-4" value="Enter a number n" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="1">
+          <mxGeometry x="311" y="200" width="206" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-5" value="n&amp;gt;=0" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="372" y="280" width="98" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-7" value="&lt;span style=&quot;&quot;&gt;Sum = Sum + n&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="361" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.414;exitY=1.045;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LYZOA4ETsrpDai8BMWDt-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="90" as="sourcePoint" />
+            <mxPoint x="400" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.438;exitY=1.005;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.469;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LYZOA4ETsrpDai8BMWDt-3" target="LYZOA4ETsrpDai8BMWDt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-10" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="LYZOA4ETsrpDai8BMWDt-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="240" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LYZOA4ETsrpDai8BMWDt-5" target="LYZOA4ETsrpDai8BMWDt-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LYZOA4ETsrpDai8BMWDt-7" target="LYZOA4ETsrpDai8BMWDt-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="420" />
+              <mxPoint x="640" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-14" value="Print Sum" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="400" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-15" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.56;entryY=-0.055;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LYZOA4ETsrpDai8BMWDt-5" target="LYZOA4ETsrpDai8BMWDt-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="157" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-16" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="100" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LYZOA4ETsrpDai8BMWDt-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LYZOA4ETsrpDai8BMWDt-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="430" as="sourcePoint" />
+            <mxPoint x="150" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
